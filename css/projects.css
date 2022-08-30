@@ -1,0 +1,67 @@
+.projects {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.projects h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsCard {
+    max-width: 260px;
+    height: fit-content;
+    background-color: var(--projectCard);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projectsCard img {
+    max-width: 230px;
+    height: 100px;
+}
+
+.projectsCard h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.projectsCard p {
+    font-size: 14px;
+    font-weight: bold;
+    max-width: fit-content;
+    margin-top: -5px;
+}
+
+.projectsCard .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.buttonContainer a {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+    width: 90px;
+    text-align: center;
+}
+
+.buttonContainer a:hover {
+    border: 1px solid var(--buttonLinkCardProject);
+    color: var(--buttonLinkCardProject);
+}

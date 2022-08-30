@@ -1,0 +1,78 @@
+.about {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.avatarMain {
+    float: right;
+}
+
+.avatar {
+    width: 350px;
+}
+
+.about h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.about p {
+    max-width: 55%;
+    font-size: 25px;
+    color: white;
+    margin-bottom: -30px;
+}
+
+.about p span {
+    color: var(--primeryColor);
+}
+
+.abillitis {
+    max-width: 30%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.abillitis span {
+    height: fit-content;
+    color: var(--primeryColor);
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.abillitis span:hover {
+    background-color: var(--hoverAbillitis);
+}
+
+@media screen and (max-width: 450px) {
+    .abillitis {
+        width: 90%;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .avatarMain {
+        display: none;
+    }
+    .about p {
+        max-width: 90%;
+        font-size: 22px;
+    }
+    .abillitis {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .abillitis {
+        max-width: 90%;
+    }
+}

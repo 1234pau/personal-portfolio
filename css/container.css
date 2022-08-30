@@ -1,0 +1,66 @@
+.logoSvg {
+    fill: var(--primeryColor);
+    margin-left: 50px;
+}
+
+.containerNav {
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.navigation {
+    display: block;
+}
+
+.navigation a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    position: relative;
+}
+
+.navigation a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -3px;
+    height: 4px;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+    background-color: var(--primeryColor);
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#burgerIcon {
+    display: none;
+    visibility: visible;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width: 670px) {
+    .navigation {
+        display: none;
+    }
+    #burgerIcon {
+        display: block;
+    }
+}

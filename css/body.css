@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Marvel', sans-serif;
+    overflow: hidden;
+}
+
+.imageContainer {
+    background-image: url("/assets/background-desktop-min.png");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    width: 94%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(100deg, rgba(208, 211, 232, 0.151) 2%, rgba(136, 143, 205, 0.11) 40%);
+    backdrop-filter: blur(15px);
+    z-index: 1;
+    border-radius: 15px;
+    border: 1px solid rgb(198, 199, 219);
+    padding: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+        max-width: 92%;
+        height: 93vh;
+    }
+    .imageContainer {
+        background-image: url("/assets/background-desktop-2-min.png");
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .container {
+        max-width: 88%;
+        height: 93vh;
+    }
+    .imageContainer {
+        background-image: url("/assets/background-desktop-3png-min.png");
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .container {
+        max-width: 88%;
+        height: 93vh;
+    }
+    .imageContainer {
+        background-image: url("/assets/background-desktop-3png-min.png");
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .imageContainer {
+        background-image: url("/assets/background-phone-min.png");
+    }
+}

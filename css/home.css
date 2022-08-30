@@ -1,0 +1,117 @@
+.heroContainer {
+    max-width: 95%;
+    height: 85%;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.heroImage {
+    max-width: 350px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.contentHero h1 {
+    max-width: 500px;
+    margin-top: 100px;
+    font-size: 55px;
+}
+
+.contentHero span {
+    color: var(--primeryColor);
+}
+
+.home {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.buttons a {
+    width: 200px;
+    padding: 15px;
+    background-color: transparent;
+    color: var(--primeryColor);
+    border: 2px solid var(--primeryColor);
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.buttons a:hover {
+    background-color: var(--primeryColor);
+    color: white;
+    transition: 0.5s ease;
+}
+
+.socialIcons {
+    margin-top: 60px;
+    padding-right: 10px;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding-right: 10px;
+}
+
+.socialIcons a:hover {
+    color: var(--hoverSocialIcons);
+}
+
+@media screen and (max-width: 450px) {
+    .heroContainer {
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .socialIcons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .heroContainer {
+        height: 90%;
+    }
+    .imageMain {
+        min-height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: -100px;
+    }
+    .socialIcons {
+        text-align: center;
+    }
+    .heroImage {
+        margin-bottom: 40px;
+    }
+    .home {
+        display: block;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .contentHero h1 {
+        max-width: 100%;
+        font-size: 45px;
+        text-align: center;
+    }
+    .buttons {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
