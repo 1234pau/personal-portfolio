@@ -6,7 +6,7 @@ body {
 }
 
 .imageContainer {
-    background-image: url("/assets/background-desktop-min.png");
+    background-image: url("../assets/background-desktop-min.png");
     width: 100vw;
     height: 100vh;
     background-position: center;
@@ -36,7 +36,7 @@ body {
         height: 93vh;
     }
     .imageContainer {
-        background-image: url("/assets/background-desktop-2-min.png");
+        background-image: url("../assets/background-desktop-2-min.png");
     }
 }
 
@@ -46,7 +46,7 @@ body {
         height: 93vh;
     }
     .imageContainer {
-        background-image: url("/assets/background-desktop-3png-min.png");
+        background-image: url("../assets/background-desktop-3png-min.png");
     }
 }
 
@@ -56,12 +56,12 @@ body {
         height: 93vh;
     }
     .imageContainer {
-        background-image: url("/assets/background-desktop-3png-min.png");
+        background-image: url("../assets/background-desktop-3png-min.png");
     }
 }
 
 @media screen and (max-width: 420px) {
     .imageContainer {
-        background-image: url("/assets/background-phone-min.png");
+        background-image: url("../assets/background-phone-min.png");
     }
 }
