@@ -49,6 +49,7 @@
 
 .abillitis span:hover {
     background-color: var(--hoverAbillitis);
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 450px) {
