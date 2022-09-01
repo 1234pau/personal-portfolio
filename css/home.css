@@ -66,12 +66,6 @@
     color: var(--hoverSocialIcons);
 }
 
-@media screen and (max-width: 450px) {
-    .heroContainer {
-        height: 90%;
-    }
-}
-
 @media screen and (max-width: 670px) {
     .socialIcons {
         display: none;
@@ -79,9 +73,6 @@
 }
 
 @media screen and (max-width: 850px) {
-    .heroContainer {
-        height: 90%;
-    }
     .imageMain {
         min-height: 350px;
         display: flex;

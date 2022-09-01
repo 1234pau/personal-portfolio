@@ -8,6 +8,7 @@
     animation: divBurger;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    animation-direction: alternate;
 }
 
 @keyframes divBurger {
@@ -23,8 +24,8 @@
     color: white;
     font-size: 40px;
     float: right;
-    margin-top: 50px;
-    margin-right: 60px;
+    margin-top: 40px;
+    margin-right: 40px;
     cursor: pointer;
     opacity: 0;
     animation-name: btnX;
@@ -36,7 +37,7 @@
 }
 
 .fa-xmark:hover {
-    transform: rotateY(180deg);
+    transform: rotate(180deg);
 }
 
 @keyframes btnX {
