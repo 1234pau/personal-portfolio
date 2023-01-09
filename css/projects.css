@@ -18,7 +18,7 @@
 }
 
 .projectsCard {
-    max-width: 260px;
+    max-width: 240px;
     height: fit-content;
     background-color: var(--projectCard);
     padding: 15px;
@@ -28,6 +28,9 @@
 }
 
 .projectsCard img {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
     max-width: 230px;
     height: 100px;
 }
