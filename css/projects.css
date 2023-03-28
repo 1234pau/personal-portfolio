@@ -19,40 +19,42 @@
 
 .projectsCard {
     max-width: 240px;
-    height: fit-content;
+    height: 280px;
     background-color: var(--projectCard);
-    padding: 15px;
+    padding: 10px;
     margin: 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .projectsCard img {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 230px;
-    height: 100px;
+    width: 100%;
+    height: 130px;
 }
 
 .projectsCard h2 {
     font-size: 25px;
     font-weight: bold;
+    width: 100%;
     margin-top: 5px;
 }
 
 .projectsCard p {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     max-width: fit-content;
-    margin-top: -5px;
+    margin-top: -15px;
 }
 
 .projectsCard .buttonContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 12px;
+    width: 95%;
 }
 
 .buttonContainer a {

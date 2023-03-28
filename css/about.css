@@ -29,29 +29,6 @@
     color: var(--primeryColor);
 }
 
-.abillitis {
-    max-width: 30%;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 80px;
-}
-
-.abillitis span {
-    height: fit-content;
-    color: var(--primeryColor);
-    font-size: 20px;
-    padding: 5px;
-    border: 1px solid black;
-    margin-right: 10px;
-    cursor: default;
-}
-
-.abillitis span:hover {
-    background-color: var(--hoverAbillitis);
-    border-radius: 5px;
-}
-
 @media screen and (max-width: 450px) {
     .abillitis {
         width: 90%;
@@ -66,14 +43,5 @@
     .about p {
         max-width: 90%;
         font-size: 22px;
-    }
-    .abillitis {
-        max-width: 90%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .abillitis {
-        max-width: 90%;
     }
 }
